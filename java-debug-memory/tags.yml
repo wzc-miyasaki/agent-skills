@@ -1,0 +1,87 @@
+# Java Debug Memory - 标签体系
+# AI 可自由扩展此文件，但需遵循：最简短、无语义重复
+
+# 异常类型标签
+exceptions:
+  - NullPointerException
+  - ClassCastException
+  - StackOverflowError
+  - OutOfMemoryError
+  - ConcurrentModificationException
+  - IllegalArgumentException
+  - IllegalStateException
+  - UnsupportedOperationException
+  - ArrayIndexOutOfBoundsException
+  - NumberFormatException
+  - ClassNotFoundException
+  - NoSuchMethodError
+  - NoSuchBeanDefinitionException
+  - BeanCreationException
+  - DataAccessException
+  - SQLException
+  - IOException
+  - TimeoutException
+  - ConnectionException
+
+# 框架/组件标签
+frameworks:
+  - Spring
+  - SpringBoot
+  - SpringMVC
+  - SpringSecurity
+  - SpringCloud
+  - MyBatis
+  - JPA
+  - Hibernate
+  - Redis
+  - MySQL
+  - PostgreSQL
+  - Kafka
+  - RabbitMQ
+  - Elasticsearch
+  - Dubbo
+  - Nacos
+  - Gateway
+  - Feign
+  - Sentinel
+
+# 问题域标签
+domains:
+  - 依赖注入
+  - 事务管理
+  - 连接池
+  - 线程池
+  - 序列化
+  - 反序列化
+  - AOP
+  - 过滤器
+  - 拦截器
+  - 缓存
+  - 分页
+  - 排序
+  - 配置加载
+  - 类加载
+  - 反射
+  - 泛型
+  - 注解处理
+  - 日志
+
+# 场景标签（AI 重点扩展区域）
+scenarios:
+  - Bean注入null
+  - 循环依赖
+  - 索引失效
+  - 慢查询
+  - 内存泄漏
+  - 线程死锁
+  - 连接耗尽
+  - 超时
+  - 重复提交
+  - 幂等性
+  - 数据不一致
+  - 编码问题
+  - 时区问题
+  - 版本不兼容
+  - 配置错误
+  - 权限不足
+  - 跨域问题
